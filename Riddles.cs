@@ -8,15 +8,7 @@ public class Riddles
     string answer = Console.ReadLine();
     if (answer == "Y" || answer == "y")
     {
-      Console.WriteLine("I run all around the pasture but never move. What am I?");
-      string riddleAnswer = Console.ReadLine().ToLower();
-      if (riddleAnswer == "fence")
-      {
-        Console.WriteLine("Correct. You shall pass.");
-      } else {
-        Console.WriteLine("Incorrect.");
-        Console.WriteLine("*User gets eaten.*");
-      }
+      AskRiddles();
     }
     else {
       Console.WriteLine("You have no choice but to enter `y`.");
@@ -24,13 +16,45 @@ public class Riddles
     }
   }
 
+  static void AskRiddles()
+  {
+    Console.WriteLine("I run all around the pasture but never move. What am I?");
+      string riddleAnswer = Console.ReadLine().ToLower();
+      if (riddleAnswer == "fence")
+      {
+        Console.WriteLine("Correct. You shall pass.");
+        Console.WriteLine("What has roots as nobody sees, is taller than trees, up, up it goes, and yet never grows?");
+        string riddleAnswer2 = Console.ReadLine().ToLower();
+        if (riddleAnswer2 == "mountain")
+        {
+          Console.WriteLine("Correct. You shall pass.");
+          Console.WriteLine("Voiceless it cries, wingless flutters, toothless bites, mouthless mutters.");
+          string riddleAnswer3 = Console.ReadLine().ToLower();
+          if (riddleAnswer3 == "wind")
+          {
+            Console.WriteLine("Correct. You have defeated the Sphinx!");
+          } 
+          else 
+          {
+            WrongAnswer();
+          }
+        } 
+        else 
+        {
+          WrongAnswer();
+        }
+      } 
+      else 
+      {
+        WrongAnswer();
+      }
+    
+  }
+  
+  static void WrongAnswer()
+  {
+    Console.WriteLine("Incorrect.");
+    Console.WriteLine("*User gets eaten.*");
+    Main();
+  }
 }
-
-/*
-  What has roots as nobody sees,
-  Is taller than trees,
-  Up, up it goes,
-  And yet never grows?
-
-  - mountain
-*/
