@@ -1,0 +1,15 @@
+/Users/nickb/Desktop/sphinx/obj/Debug/net5.0/Riddles.csproj.AssemblyReference.cache
+/Users/nickb/Desktop/sphinx/obj/Debug/net5.0/Riddles.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nickb/Desktop/sphinx/obj/Debug/net5.0/Riddles.AssemblyInfoInputs.cache
+/Users/nickb/Desktop/sphinx/obj/Debug/net5.0/Riddles.AssemblyInfo.cs
+/Users/nickb/Desktop/sphinx/obj/Debug/net5.0/Riddles.csproj.CoreCompileInputs.cache
+/Users/nickb/Desktop/sphinx/bin/Debug/net5.0/Riddles.deps.json
+/Users/nickb/Desktop/sphinx/bin/Debug/net5.0/Riddles.runtimeconfig.json
+/Users/nickb/Desktop/sphinx/bin/Debug/net5.0/Riddles.runtimeconfig.dev.json
+/Users/nickb/Desktop/sphinx/bin/Debug/net5.0/Riddles.dll
+/Users/nickb/Desktop/sphinx/bin/Debug/net5.0/ref/Riddles.dll
+/Users/nickb/Desktop/sphinx/bin/Debug/net5.0/Riddles.pdb
+/Users/nickb/Desktop/sphinx/obj/Debug/net5.0/Riddles.dll
+/Users/nickb/Desktop/sphinx/obj/Debug/net5.0/ref/Riddles.dll
+/Users/nickb/Desktop/sphinx/obj/Debug/net5.0/Riddles.pdb
+/Users/nickb/Desktop/sphinx/obj/Debug/net5.0/Riddles.genruntimeconfig.cache
