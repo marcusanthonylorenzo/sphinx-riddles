@@ -32,17 +32,21 @@ public class Riddles
     if (riddleAnswer == answer)
     {
       Console.WriteLine("Correct. You shall pass.");
+      riddleDictionary.Remove(question);
       KeyValuePair<string, string> riddleKey2 = riddleDictionary.ElementAt(rand.Next(riddleDictionary.Count));
       string question2 = riddleKey2.Key;
       string answer2 = riddleKey2.Value;
+
       Console.WriteLine(question2);
       string riddleAnswer2 = Console.ReadLine().ToLower();
       if (riddleAnswer2 == answer2)
       {
         Console.WriteLine("Correct. You shall pass.");
+        riddleDictionary.Remove(question2);
         KeyValuePair<string, string> riddleKey3 = riddleDictionary.ElementAt(rand.Next(riddleDictionary.Count));
         string question3 = riddleKey3.Key;
         string answer3 = riddleKey3.Value;
+        
         Console.WriteLine(question3);
         string riddleAnswer3 = Console.ReadLine().ToLower();
         if (riddleAnswer3 == answer3)

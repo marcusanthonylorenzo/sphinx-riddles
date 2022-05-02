@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hcZpWECxBuW4aeWSpYk6KjT5wCeLYuTod0vsfDTZib2eKiQVixhVQlPrp6NuKlB44+zsyGq7xMji0I0Yj5VJRg==",
+  "dgSpecHash": "5Swkui7kMn1qPzbdOq924an49VoyJYOaw3neQjwoVMcwhW9yPuu0IyPppmVJbhxOW+Cm6hTDTdgfVR2SNeFsGQ==",
   "success": true,
-  "projectFilePath": "/Users/nickb/Desktop/sphinx/Riddles.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Marcus\\desktop\\sphinx-riddles\\Riddles.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Marcus\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
+  ],
   "logs": []
 }
